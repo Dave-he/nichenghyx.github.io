@@ -248,7 +248,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/03/07/github-hexo搭建博客/" itemprop="url">使用github-nodejs框架hexo快速搭建博客</a></h1>
+                <a class="post-title-link" href="/2018/03/07/github-hexo搭建博客/" itemprop="url">使用nodejs框架hexo快速搭建博客</a></h1>
         
 
         <div class="post-meta">
@@ -300,9 +300,31 @@
       
         
           
-            <blockquote>
-<p><a href="http://blog.csdn.net/qq_34047841/article/details/60129781" target="_blank" rel="noopener">http://blog.csdn.net/qq_34047841/article/details/60129781</a></p>
-</blockquote>
+            <h1 id="Hexo博客搭建"><a href="#Hexo博客搭建" class="headerlink" title="Hexo博客搭建"></a>Hexo博客搭建</h1><h2 id="第一步-搭环境"><a href="#第一步-搭环境" class="headerlink" title="第一步 -搭环境"></a>第一步 -搭环境</h2><ul>
+<li>安装Git,Node.js,Hexo</li>
+<li>注册GitHub并创建一个仓库以username.github.io命名</li>
+</ul>
+<h2 id="第二步-博客制作"><a href="#第二步-博客制作" class="headerlink" title="第二步 - 博客制作"></a>第二步 - 博客制作</h2><ul>
+<li><p>创建博客 <code>hexo init username.github.io</code></p>
+</li>
+<li><p>配置博客</p>
+<ol>
+<li>主题配置</li>
+<li>发布地址</li>
+</ol>
+</li>
+<li><p>写文章 markdown</p>
+</li>
+<li><p>测试发布</p>
+<ol>
+<li>测试 <code>hexo s</code></li>
+<li>安装自动发布工具<code>npm install hex0-deployer-git --save</code></li>
+<li>发布 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
+</ol>
+</li>
+<li><p>参考<a href="http://blog.csdn.net/qq_34047841/article/details/60129781" target="_blank" rel="noopener">五分钟搭建免费博客</a></p>
+</li>
+</ul>
 
           
         
